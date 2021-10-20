@@ -32,9 +32,9 @@ public class HelloForm extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
 
         PrintWriter out = response.getWriter();
-        String title = "使用 GET 方法读取表单数据";
+        String title = "使用 POST 方法读取表单数据";
         // 处理中文
-        String name =new String(request.getParameter("name").getBytes("ISO-8859-1"),"UTF-8");
+        String name =new String(request.getParameter("name").getBytes("ISO8859-1"),"UTF-8");
         String docType = "<!DOCTYPE html> \n";
         out.println(docType +
             "<html>\n" +
