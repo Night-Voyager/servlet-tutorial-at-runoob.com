@@ -24,6 +24,10 @@
         <servlet-name>Refresh</servlet-name>
         <servlet-class>Refresh</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>showError</servlet-name>
+        <servlet-class>showError</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/HelloWorld</url-pattern>
@@ -47,6 +51,10 @@
     <servlet-mapping>
         <servlet-name>Refresh</servlet-name>
         <url-pattern>/Refresh</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>showError</servlet-name>
+        <url-pattern>/showError</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
