@@ -8,14 +8,22 @@
         <servlet-name>HelloForm</servlet-name>
         <servlet-class>com.runoob.test.HelloForm</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CheckBox</servlet-name>
+        <servlet-class>com.runoob.test.CheckBox</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/HelloWorld</url-pattern>
     </servlet-mapping>
-    <!--servlet-mapping>
+<!--    <servlet-mapping>
         <servlet-name>HelloForm</servlet-name>
         <url-pattern>/HelloForm</url-pattern>
-    </servlet-mapping-->
+    </servlet-mapping>-->
+<!--    <servlet-mapping>
+        <servlet-name>CheckBox</servlet-name>
+        <url-pattern>/CheckBox</url-pattern>
+    </servlet-mapping>-->
     <session-config>
         <session-timeout>
             30
