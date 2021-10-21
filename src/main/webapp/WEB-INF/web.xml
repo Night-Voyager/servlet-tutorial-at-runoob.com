@@ -52,6 +52,10 @@
         <servlet-name>DeleteCookies</servlet-name>
         <servlet-class>com.runoob.test.DeleteCookies</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SessionTrack</servlet-name>
+        <servlet-class>com.runoob.test.SessionTrack</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/HelloWorld</url-pattern>
@@ -96,9 +100,13 @@
         <servlet-name>ReadCookies</servlet-name>
         <url-pattern>/ReadCookies</url-pattern>
     </servlet-mapping>-->
-<!--    <servlet-mapping>
+    <!--    <servlet-mapping>
         <servlet-name>DeleteCookies</servlet-name>
         <url-pattern>/DeleteCookies</url-pattern>
+    </servlet-mapping>-->
+<!--    <servlet-mapping>
+        <servlet-name>SessionTrack</servlet-name>
+        <url-pattern>/SessionTrack</url-pattern>
     </servlet-mapping>-->
     <session-config>
         <session-timeout>
