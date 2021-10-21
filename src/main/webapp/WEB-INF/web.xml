@@ -44,6 +44,10 @@
         <servlet-name>ErrorHandler</servlet-name>
         <servlet-class>ErrorHandler</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ReadCookies</servlet-name>
+        <servlet-class>com.runoob.test.ReadCookies</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/HelloWorld</url-pattern>
@@ -84,6 +88,10 @@
         <exception-type>java.lang.Throwable</exception-type>
         <location>/ErrorHandler</location>
     </error-page>
+<!--    <servlet-mapping>
+        <servlet-name>ReadCookies</servlet-name>
+        <url-pattern>/ReadCookies</url-pattern>
+    </servlet-mapping>-->
     <session-config>
         <session-timeout>
             30
