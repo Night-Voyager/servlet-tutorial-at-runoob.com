@@ -48,6 +48,10 @@
         <servlet-name>ReadCookies</servlet-name>
         <servlet-class>com.runoob.test.ReadCookies</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DeleteCookies</servlet-name>
+        <servlet-class>com.runoob.test.DeleteCookies</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/HelloWorld</url-pattern>
@@ -88,9 +92,13 @@
         <exception-type>java.lang.Throwable</exception-type>
         <location>/ErrorHandler</location>
     </error-page>
-<!--    <servlet-mapping>
+    <!--    <servlet-mapping>
         <servlet-name>ReadCookies</servlet-name>
         <url-pattern>/ReadCookies</url-pattern>
+    </servlet-mapping>-->
+<!--    <servlet-mapping>
+        <servlet-name>DeleteCookies</servlet-name>
+        <url-pattern>/DeleteCookies</url-pattern>
     </servlet-mapping>-->
     <session-config>
         <session-timeout>
